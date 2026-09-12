@@ -43,7 +43,8 @@ jobs:
           cp index.html pages/index.html
           cp public/favicon.svg pages/favicon.svg
           cp -R public/images pages/images
-          cp -R assets pages/assets
+          cp app.js pages/app.js
+          cp app.css pages/app.css
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
