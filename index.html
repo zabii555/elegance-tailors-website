@@ -3,12 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="%BASE_URL%" />
+    <base href="/elegance-tailors-website/" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <script>
+      if (window.location.hostname.endsWith('github.io')) {
+        const stylesheet = document.createElement('link')
+        stylesheet.rel = 'stylesheet'
+        stylesheet.href = '/elegance-tailors-website/assets/index-D_skfnGn.css'
+        document.head.appendChild(stylesheet)
+      }
+    </script>
     <title>Elegance Tailors | Modern Elegance</title>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module">
+      const script = document.createElement('script')
+      script.type = 'module'
+      script.src = window.location.hostname.endsWith('github.io')
+        ? '/elegance-tailors-website/assets/index-CGjwrgbc.js'
+        : '/src/main.jsx'
+      document.body.appendChild(script)
+    </script>
   </body>
 </html>
