@@ -37,13 +37,21 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Prepare Pages fallback
+        run: |
+          mkdir -p pages/assets
+          cp index.html pages/index.html
+          cp favicon.svg pages/favicon.svg
+          cp -R images pages/images
+          cp -R assets pages/assets
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: pages
 
       - name: Deploy
         id: deployment
