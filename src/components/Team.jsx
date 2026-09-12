@@ -1,8 +1,8 @@
 const tailors = [
-  { img: '/images/tailor-peter.png', name: 'Peter Anderson', role: 'Master Tailor', desc: '35 years of bespoke craftsmanship. Trained in Savile Row, London.' },
-  { img: '/images/tailor-elder.png', name: 'Giuseppe Romano', role: 'Head Cutter', desc: 'The hands behind our signature silhouettes since 1995.' },
-  { img: '/images/designer-woman.png', name: 'Sofia Laurent', role: 'Head of Womenswear', desc: 'Couture specialist creating gowns worn on red carpets.' },
-  { img: '/images/tailor-young.png', name: 'Marco Silva', role: 'Fitting Specialist', desc: 'Ensures every garment fits like a second skin.' },
+  { img: 'images/tailor-peter.png', name: 'Peter Anderson', role: 'Master Tailor', desc: '35 years of bespoke craftsmanship. Trained in Savile Row, London.' },
+  { img: 'images/tailor-elder.png', name: 'Giuseppe Romano', role: 'Head Cutter', desc: 'The hands behind our signature silhouettes since 1995.' },
+  { img: 'images/designer-woman.png', name: 'Sofia Laurent', role: 'Head of Womenswear', desc: 'Couture specialist creating gowns worn on red carpets.' },
+  { img: 'images/tailor-young.png', name: 'Marco Silva', role: 'Fitting Specialist', desc: 'Ensures every garment fits like a second skin.' },
 ]
 
 export default function Team() {

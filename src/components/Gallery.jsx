@@ -1,7 +1,7 @@
 const imgs = [
-  '/images/navy-suit.png', '/images/evening-gown.png', '/images/tuxedo.png',
-  '/images/bridal-gown.png', '/images/diamond-suit.png', '/images/green-gown.png',
-  '/images/grey-suit.png', '/images/women-suit.png',
+  'images/navy-suit.png', 'images/evening-gown.png', 'images/tuxedo.png',
+  'images/bridal-gown.png', 'images/diamond-suit.png', 'images/green-gown.png',
+  'images/grey-suit.png', 'images/women-suit.png',
 ]
 
 export default function Gallery() {

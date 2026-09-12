@@ -16,7 +16,7 @@ export default function Story() {
             the art of bespoke fashion — for both men and women.
           </p>
         </div>
-        <img src="/images/tailor-shop.png" alt="Our workshop since 1989" />
+        <img src="images/tailor-shop.png" alt="Our workshop since 1989" />
       </div>
     </section>
   )

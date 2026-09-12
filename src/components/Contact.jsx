@@ -32,7 +32,7 @@ export default function Contact() {
             <button type="submit" className="btn">{sent ? 'Message Sent ✓' : 'Send Message'}</button>
           </form>
         </div>
-        <img src="/images/fabrics.png" alt="Premium fabrics" />
+        <img src="images/fabrics.png" alt="Premium fabrics" />
       </div>
     </section>
   )

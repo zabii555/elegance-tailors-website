@@ -2,7 +2,7 @@ export default function Media() {
   return (
     <section className="section media">
       <div className="container media-grid">
-        <img src="/images/atelier.png" alt="Inside our atelier" />
+        <img src="images/atelier.png" alt="Inside our atelier" />
         <div>
           <h2 className="section-title">PETER IN THE <span className="gold">MEDIA</span></h2>
           <div className="underline"></div>

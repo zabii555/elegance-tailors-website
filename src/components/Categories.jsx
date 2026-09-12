@@ -1,8 +1,8 @@
 const cats = [
-  { img: '/images/custom-suit.png', title: 'Custom Suits', desc: 'Tailored perfection for every occasion.' },
-  { img: '/images/man-suit.png', title: 'Custom Shirts', desc: 'Fine fabrics with flawless fits.' },
-  { img: '/images/tuxedo.png', title: 'Tuxedo & Formal', desc: 'Black-tie elegance, redefined.' },
-  { img: '/images/wedding-groom.png', title: 'Wedding Series', desc: 'Look unforgettable on your big day.' },
+  { img: 'images/custom-suit.png', title: 'Custom Suits', desc: 'Tailored perfection for every occasion.' },
+  { img: 'images/man-suit.png', title: 'Custom Shirts', desc: 'Fine fabrics with flawless fits.' },
+  { img: 'images/tuxedo.png', title: 'Tuxedo & Formal', desc: 'Black-tie elegance, redefined.' },
+  { img: 'images/wedding-groom.png', title: 'Wedding Series', desc: 'Look unforgettable on your big day.' },
 ]
 
 export default function Categories() {

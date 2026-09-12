@@ -5,7 +5,7 @@ export default function Discover() {
     <section className="section discover" id="aboutus">
       <div className="container discover-grid">
         <div className="discover-img">
-          <img src="/images/fitting.png" alt="Perfect fitting session" />
+          <img src="images/fitting.png" alt="Perfect fitting session" />
           <div className="discover-badge">
             <h3>35+</h3>
             <p>Years of Craft</p>
